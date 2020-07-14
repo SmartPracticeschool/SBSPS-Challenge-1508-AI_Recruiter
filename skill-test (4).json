@@ -1,0 +1,1225 @@
+{
+  "intents": [
+    {
+      "intent": "about-yourself",
+      "examples": [
+        {
+          "text": "I like reading books, hiking and traveling, playing games. I am very enthusiastic in learning and I'm a very hardworking person."
+        },
+        {
+          "text": "I am good at many things, I have very good experience in group projects. And as for my hobbies, I like reading books, and playing table tennis."
+        },
+        {
+          "text": "I have many hobbies like cricket,basket ball,etc. I love programming.I am very enthusiastic in learning."
+        },
+        {
+          "text": "I am very good at learning new technology. My hobbies are hiking and traveling, mountain climbing and many other adventure activities."
+        },
+        {
+          "text": "I am very Enthusiastic person. I am very hard working and reliable person. I have a very good experience in project management."
+        }
+      ]
+    },
+    {
+      "intent": "start_interview",
+      "examples": [
+        {
+          "text": "fine"
+        },
+        {
+          "text": "I am very well, Thank you!"
+        },
+        {
+          "text": "good"
+        },
+        {
+          "text": "Very well"
+        },
+        {
+          "text": "I'm okay, Thank you!"
+        },
+        {
+          "text": "I am fine"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "project",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "8",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "10",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "7",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "6",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "5",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "No project",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "4",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "3",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "0",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "9",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": false
+    },
+    {
+      "entity": "education",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "higher education",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "B.Tech",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "M.Tech",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "PhD",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "work",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "more than 10 years experience",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "no experience",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1-2 years experience",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "3-5 years experience",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "6-10 years experience",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "technology",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "php",
+          "synonyms": [
+            "php core",
+            "laravel",
+            "CodeIgniter",
+            "Symfony",
+            "CakePHP",
+            "yii",
+            "zend framework",
+            "zend",
+            "phalcon",
+            "fuelphp",
+            "phpixie",
+            "slim"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Angular",
+          "synonyms": [
+            "angular.js",
+            "angular framework"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Bootstrap",
+          "synonyms": [
+            "bootstrap framework"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "data science",
+          "synonyms": [
+            "data mining",
+            "blockchain"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "java",
+          "synonyms": [
+            ".NET framework",
+            "apache spark",
+            "selenium",
+            "primefaces",
+            "apache click",
+            "vibe.d",
+            "pureMVC",
+            "spring",
+            "hybernate",
+            "java server faces",
+            "jsf",
+            "vaadin",
+            "blade",
+            "dropwizard"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Python",
+          "synonyms": [
+            "django",
+            "turbo gears",
+            "web2py",
+            "cubicweb",
+            "giotto",
+            "django-hotsauce",
+            "grok",
+            "pylons",
+            "reahl",
+            "websauna",
+            "zope",
+            "cherrypy"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ML",
+          "synonyms": [
+            "machine learning",
+            "artificial intelegence",
+            "deep learning",
+            "dl",
+            "nlp",
+            "natural langauge processing"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Node",
+          "synonyms": [
+            "node.js",
+            "node backend framework",
+            "node.js famework"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "React",
+          "synonyms": [
+            "react.js",
+            "react framework"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "contactnum",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "+121 55698",
+          "patterns": [
+            "^(\\(?\\+?[0-9]*\\)?)?[0-9_\\- \\(\\)]*$"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "start_interview",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Yes please start interview",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Don't start interview",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": false
+    },
+    {
+      "entity": "name",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "short name",
+          "patterns": [
+            "[\"„“][A-Za-z0-9.:| @\\']+[\"”“]"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "about",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "management",
+          "synonyms": [
+            "event manager",
+            "team leader",
+            "group leader",
+            "leader",
+            "manager",
+            "event handler"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "software development",
+          "synonyms": [
+            "mit app inventer",
+            "android",
+            "fire base",
+            "application",
+            "app development",
+            "cloud"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Interest",
+          "synonyms": [
+            "coding",
+            "programming ",
+            "blogging ",
+            "photography",
+            "drawing",
+            "painting"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Web development",
+          "synonyms": [
+            "Full stack web development",
+            "developed a web site",
+            "Front end developer",
+            "back end developer",
+            "java script developer",
+            "php developer",
+            "react developer",
+            "database"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "problem solving",
+          "synonyms": [
+            "hackerrank",
+            "hackerearth",
+            "code chef",
+            "problem solver",
+            "badges",
+            "coding",
+            "programming"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "future goals",
+          "synonyms": [
+            "ml developer",
+            "data scientist ",
+            "ai developer",
+            "successful web developer",
+            "successful application developer",
+            "successful developer",
+            "senior engineer"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "enthusiastic",
+          "synonyms": [
+            "willingness",
+            "effort"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "sports hobby",
+          "synonyms": [
+            "cricket",
+            "hiking",
+            "climbing",
+            "swimming",
+            "cycling",
+            "basketball",
+            "football",
+            "games",
+            "chess",
+            "video games",
+            "athletics",
+            "travelling"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Reading",
+          "synonyms": [
+            "Reading Books",
+            "writing",
+            "content writing",
+            "painting"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "achiver",
+          "synonyms": [
+            "won",
+            "win",
+            "achived",
+            "successfully completed ",
+            "accomplish",
+            "full fil",
+            "pull off"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "email",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "abc@gmail.com",
+          "patterns": [
+            "[a-z]+@[a-z]+.[a-z]+"
+          ]
+        },
+        {
+          "type": "patterns",
+          "value": "shhsh@ibm.com",
+          "patterns": [
+            "\\b[A-Za-z0-9._%+-]+@([A-Za-z0-9-]+\\.)+[A-Za-z]{2,}\\b"
+          ]
+        },
+        {
+          "type": "patterns",
+          "value": "dbshbaj@jdd.com",
+          "patterns": [
+            "[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}"
+          ]
+        },
+        {
+          "type": "patterns",
+          "value": "text123@hsh1.com",
+          "patterns": [
+            "/\\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}\\b/"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "webhooks": [
+    {
+      "url": "https://eu-gb.functions.cloud.ibm.com/api/v1/web/SI05202001067%40smartinternz.com_dev/default/insert.json",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "time": 180,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Provide your email address which we can contact later."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_5_1592680511625",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1592680511628",
+      "previous_sibling": "handler_5_1592680511628"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1592680511625",
+      "context": {
+        "email": "@email.literal"
+      },
+      "conditions": "@email.literal",
+      "event_name": "input",
+      "dialog_node": "handler_5_1592680511628"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_6_1592676613895",
+      "variable": "$contactnum",
+      "dialog_node": "slot_6_1592680687999",
+      "previous_sibling": "slot_5_1592680511625"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_6_1592676613895",
+      "variable": "$project",
+      "dialog_node": "slot_3_1592680014933",
+      "previous_sibling": "slot_8_1592678931718"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_6_1592676613895",
+      "variable": "$about",
+      "dialog_node": "slot_10_1592680954327",
+      "previous_sibling": "slot_6_1592680687999"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_6_1592676613895",
+      "variable": "$education",
+      "dialog_node": "slot_8_1592676923914",
+      "previous_sibling": "slot_3_1592676674746"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_6_1592676613895",
+      "variable": "$email",
+      "dialog_node": "slot_5_1592680511625",
+      "previous_sibling": "slot_6_1592760942232"
+    },
+    {
+      "type": "response_condition",
+      "parent": "node_6_1592676613895",
+      "conditions": "anything_else",
+      "dialog_node": "response_9_1592830881904",
+      "previous_sibling": "response_5_1592830880878"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_6_1592676613895",
+      "variable": "$name",
+      "dialog_node": "slot_3_1592676674746",
+      "previous_sibling": "response_9_1592830881904"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "$webhook_result_1"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_6_1592676613895",
+      "conditions": "$webhook_result_1",
+      "dialog_node": "response_5_1592830880878",
+      "previous_sibling": "response_4_1592680348621"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_6_1592676613895",
+      "variable": "$technology",
+      "dialog_node": "slot_6_1592760942232",
+      "previous_sibling": "slot_3_1592680014933"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_6_1592676613895",
+      "variable": "$work",
+      "dialog_node": "slot_8_1592678931718",
+      "previous_sibling": "slot_8_1592676923914"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "time": 180,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Thank You. It was great interview. We will contact you soon."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1592676613895",
+      "context": {},
+      "conditions": "$about",
+      "dialog_node": "response_4_1592680348621"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "time": 180,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Tell me about your work experience in this field."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 60,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "title": "work",
+            "options": [
+              {
+                "label": "no work experience",
+                "value": {
+                  "input": {
+                    "text": "no experience"
+                  }
+                }
+              },
+              {
+                "label": "1-2 years experience",
+                "value": {
+                  "input": {
+                    "text": "1-2 year experience"
+                  }
+                }
+              },
+              {
+                "label": "3-5 years experience",
+                "value": {
+                  "input": {
+                    "text": "3-5 year experience"
+                  }
+                }
+              },
+              {
+                "label": "6-10 years experience",
+                "value": {
+                  "input": {
+                    "text": "6-10 years experience"
+                  }
+                }
+              },
+              {
+                "label": "more than 10 years experience",
+                "value": {
+                  "input": {
+                    "text": "more than 10 years experience"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_8_1592678931718",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1592678931723",
+      "previous_sibling": "handler_2_1592678931723"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1592678931718",
+      "context": {
+        "work": "@work"
+      },
+      "conditions": "@work",
+      "event_name": "input",
+      "dialog_node": "handler_2_1592678931723"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "time": 180,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Please provide your working phone number."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_6_1592680687999",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1592680688004",
+      "previous_sibling": "handler_1_1592680688004"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1592680687999",
+      "context": {
+        "contactnum": "@contactnum.literal"
+      },
+      "conditions": "@contactnum.literal",
+      "event_name": "input",
+      "dialog_node": "handler_1_1592680688004"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "time": 180,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "So first what is your full name?(Please use double quotes \" \" )"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_3_1592676674746",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1592676674772",
+      "previous_sibling": "handler_1_1592676674772"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1592676674746",
+      "context": {
+        "name": "<?input.text?>"
+      },
+      "conditions": "@name.literal",
+      "event_name": "input",
+      "dialog_node": "handler_1_1592676674772"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "time": 90,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Which technologies you have worked on?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_6_1592760942232",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1592760942235",
+      "previous_sibling": "handler_10_1592760942235"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1592760942232",
+      "context": {
+        "technology": "@technology.values"
+      },
+      "conditions": "@technology.values",
+      "event_name": "input",
+      "dialog_node": "handler_10_1592760942235"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tell me something about yourself."
+              },
+              {
+                "text": "Tell me about your hobbies."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 180,
+            "typing": true,
+            "response_type": "pause"
+          }
+        ]
+      },
+      "parent": "slot_10_1592680954327",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1592680954331",
+      "previous_sibling": "handler_5_1592680954331"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1592680954327",
+      "context": {
+        "about": "@about.values"
+      },
+      "conditions": "@about.values",
+      "event_name": "input",
+      "dialog_node": "handler_5_1592680954331"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "time": 180,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "How many projects you have done in the past or currently working?.(Enter only numbers)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_3_1592680014933",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1592680014938",
+      "previous_sibling": "handler_4_1592680014938"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1592680014933",
+      "context": {
+        "project": "@project.literal"
+      },
+      "conditions": "@project.literal",
+      "event_name": "input",
+      "dialog_node": "handler_4_1592680014938"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "time": 180,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Next question is what is your Education background ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 60,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "title": "education",
+            "options": [
+              {
+                "label": "I have completed my Higher Education.",
+                "value": {
+                  "input": {
+                    "text": "higher education"
+                  }
+                }
+              },
+              {
+                "label": "I have completed my B-Tech degree in respective field or currently pursuing",
+                "value": {
+                  "input": {
+                    "text": "B.Tech"
+                  }
+                }
+              },
+              {
+                "label": "I have completed my M-Tech degree in respetive feild or currently pursuing.",
+                "value": {
+                  "input": {
+                    "text": "M.Tech"
+                  }
+                }
+              },
+              {
+                "label": "I have completed my PhD degree in respective field or currently pursuing.",
+                "value": {
+                  "input": {
+                    "text": "PhD"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_8_1592676923914",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1592676923918",
+      "previous_sibling": "handler_7_1592676923918"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1592676923914",
+      "context": {
+        "education": "@education"
+      },
+      "conditions": "@education",
+      "event_name": "input",
+      "dialog_node": "handler_7_1592676923918"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_6_1592676613895",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "start interview",
+      "output": {
+        "generic": [
+          {
+            "time": 120,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "So, shall we start your interview?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Interview",
+            "options": [
+              {
+                "label": "Yes, please.",
+                "value": {
+                  "input": {
+                    "text": "Yes please start interview"
+                  }
+                }
+              },
+              {
+                "label": "No ,Don't start",
+                "value": {
+                  "input": {
+                    "text": "Don't start interview"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#start_interview",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1592482363747",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "frame",
+      "title": "Interview",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "actionname": "insert",
+            "eventValues": "<? $name.substring(1,$name.length()-1) ?>;<? $education ?>;<? $work ?>;<? $project ?>;<? $technology.join(\"-\") ?>; <? $email ?>;<? $contactnum ?>;<? $about.join(\"-\") ?> "
+          },
+          "result_variable": "webhook_result_1"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@start_interview:(Yes please start interview)",
+      "dialog_node": "node_6_1592676613895",
+      "previous_sibling": "node_1_1592681536430"
+    },
+    {
+      "type": "standard",
+      "title": "Not ready",
+      "output": {
+        "generic": [
+          {
+            "time": 180,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Okay then, Whenever you are ready tell me."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 60,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "title": "ready",
+            "options": [
+              {
+                "label": "Now, i am ready let's start.",
+                "value": {
+                  "input": {
+                    "text": "Yes please start interview"
+                  }
+                }
+              },
+              {
+                "label": "No i am still not ready",
+                "value": {
+                  "input": {
+                    "text": "Don't start interview"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "@start_interview:(Don't start interview)",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1592681536430",
+      "previous_sibling": "node_2_1592482363747"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "time": 120,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Hello. I am roboto. Today i will conduct your interview."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 120,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "How are you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "test",
+  "language": "en",
+  "description": ""
+}
